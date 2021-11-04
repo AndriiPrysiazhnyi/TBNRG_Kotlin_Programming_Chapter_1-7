@@ -7,7 +7,15 @@ fun main() {
     var playerLevel = 4
     println(playerLevel)
 
-    println("The hero embarks on her journey to locate the enchanted sword.")
+    if (playerLevel == 1) {
+        println("Meet Mr. Bubbles in the land of soft things.")
+    } else {
+        println("Locate the enchanted sword.")
+    }
+
+    println("Time passes...")
+    println("The hero returns from her quest.")
+
     playerLevel += 1
     println(playerLevel)
 
